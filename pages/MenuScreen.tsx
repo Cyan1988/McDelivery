@@ -1,11 +1,11 @@
 import React from "react";
-import { ScrollView } from "react-native";
-import MenuCarousel from "../components/Menu/MenuCarousel";
+import { ScrollView, View } from "react-native";
+import MenuCarousel from "../components/Menu/MenuCarousel/MenuCarousel";
 
 export default function MenuScreen() {
   return (
-    <ScrollView>
+    <View>
       <MenuCarousel />
-    </ScrollView>
+    </View>
   );
 }
