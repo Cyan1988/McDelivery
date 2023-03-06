@@ -2,7 +2,7 @@ import { StyleSheet, View, Image, Dimensions } from "react-native";
 import React from "react";
 
 const { width } = Dimensions.get("screen");
-const imgHeight = width * 0.63;
+const imgHeight = width * 0.622;
 
 const MenuCarouselItem = ({ item }: any) => {
   return (
