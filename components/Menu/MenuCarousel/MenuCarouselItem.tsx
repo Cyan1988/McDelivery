@@ -1,8 +1,8 @@
 import { StyleSheet, View, Image, Dimensions } from "react-native";
 import React from "react";
 
-const { width } = Dimensions.get("screen");
-const imgHeight = width * 0.622;
+const { width: windowWidth } = Dimensions.get("screen");
+const imgHeight = windowWidth * 0.622;
 
 const MenuCarouselItem = ({ item }: any) => {
   return (
@@ -16,7 +16,7 @@ export default MenuCarouselItem;
 
 const styles = StyleSheet.create({
   container: {
-    width,
+    width: windowWidth,
   },
   image: {
     width: "100%",
